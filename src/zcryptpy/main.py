@@ -34,7 +34,7 @@ def zdecrypt(string):
     temp = list(map(''.join, zip(*[iter(cstr)]*2)))
     rtemp = list(reversed(temp))
     dtemp = [int(i,16) for i in rtemp]
-    sdtmp = [((i-j-1)/2) for j, i in enumerate(dtemp)]
+    sdtmp = [int((i-j-1)/2) for j, i in enumerate(dtemp)]
     ctemp = [chr(i) for i in sdtmp]
     result = ''.join(ctemp)
     return result
