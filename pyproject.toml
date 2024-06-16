@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "zcryptpy"
-version = "0.1.1"
+version = "1.0.1"
 authors = [
   { name="Zer0here", email="lopadotemakho.pterygon@protonmail.com" },
 ]
